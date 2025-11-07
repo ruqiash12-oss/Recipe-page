@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    margin: 0;
+}
+.wrapper{
+  display: grid;
+  place-items: center;
+}
+.recipe{
+    background-color:  white;
+    padding: 1.75rem;
+    border-radius: 1.5rem;
+    max-width: 45em;
+    margin: 6rem 0;
+}
+.image{
+    display: block;
+    max-width: 100%;
+    font-style: italic;
+    border-radius: 10px;
+}
+.title{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.description{
+  font-family: 'Outfit', sans-serif;
+  font-size: 23px;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.75rem;
+    border-radius: .8rem;
+    margin: 2rem 0;    
+}
+.time{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+.preparation ul {
+  padding-left: 1.5rem;
+}
+
+.ingredients{
+  margin: 0;
+  text-align: left;
+}
+.heading{
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+    font-weight: 400;
+    font-family:  'Young Serif', serif;
+}
+ul,ol{
+  padding: 0 1rem;
+}
+ul li{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+}
+ol li{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+}
+li{
+  padding-left: 1rem;
+  margin-bottom: .5rem;
+}
+li ::marker{
+  color:hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+tr{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+td {
+  text-align: left;
+  padding: 0.75rem;
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.number{
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+hr{
+  outline: none;
+  border: none;
+  height: 1px;
+  background-color: lightgray;
+  margin-top: 2rem;
+}
+@media (max-width: 600px) {
+  body{
+    display: block;
+  }
+  .wrapper{
+    padding: 1rem;
+  }
+  .recipe{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+ .imge{
+  border-radius: 0;
+ }
+  .title{
+    font-size: 2.2rem;
+  }
+  .container{
+    padding: 0 1.75rem;
+  }
+}
