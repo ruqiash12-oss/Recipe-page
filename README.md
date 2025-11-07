@@ -4,8 +4,8 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ## 🔗 Links
 
-- **Live Site URL**: *Add your deployed site link here (e.g., GitHub Pages or Vercel)*
-- **Solution URL**: *Add your GitHub repository link here*
+- **Live Site URL**: https://ruqiash12-oss.github.io/Recipe-page/
+- **Solution URL**: https://github.com/ruqiash12-oss/Recipe-page
 
 ## 🛠️ Built with
 
@@ -38,3 +38,4 @@ In future projects, I want to:
 
 - Frontend Mentor – [@ruqia-alsheikha](https://www.frontendmentor.io/profile/ruqiash12-oss)
 - GitHub – [@ruqia-alsheikha](https://github.com/ruqiash12-oss)
+
