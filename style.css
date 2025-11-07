@@ -134,7 +134,7 @@ hr{
     padding: 0;
     border-radius: 0;
   }
- .imge{
+ .image{
   border-radius: 0;
  }
   .title{
@@ -143,4 +143,5 @@ hr{
   .container{
     padding: 0 1.75rem;
   }
+
 }
